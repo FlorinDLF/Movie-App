@@ -38,7 +38,9 @@ A web application that allows users to search their favourite movies and watch w
 
 3. **Backend Setup:**
 
-  **Database for metrics**
+### Create a file called .env.local in the src folder
+
+   **Database for metrics**
   
   Install required package for Appwrite:
 
@@ -50,8 +52,12 @@ Setup account and database in [Appwrite](https://appwrite.io/):
 - Create a new database
 - Create a new collection
 - Create columns that match the ones in the picture
+
   <img width="534" height="199" alt="image" src="https://github.com/user-attachments/assets/bb78c8b9-7303-40ee-8740-28b9619b4b35" />
 - Modify the .env.local file with the IDs that match your database, collection, project and name
+  
+  <img width="548" height="113" alt="image" src="https://github.com/user-attachments/assets/e58836b0-da17-4865-9c7f-e8fb53490c12" />
+
 
   **Database for movies**
   
@@ -62,3 +68,6 @@ Setup account in [TMDB](https://www.themoviedb.org/):
 - Look for API Reference
 - Jump To movie in the DISCOVER section
 - Modify the .env.local file with the token that matches your account
+  
+  <img width="197" height="20" alt="image" src="https://github.com/user-attachments/assets/e2785656-9547-47f7-a466-0f16fbcfcbd1" />
+
