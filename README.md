@@ -43,8 +43,7 @@ A web application that allows users to search their favourite movies and watch w
   Install required package for Appwrite:
 
     npm install appwrite
-
-  Setup account and database in [Appwrite](https://appwrite.io/):
+Setup account and database in [Appwrite](https://appwrite.io/):
 
 - Create Account
 - Create a new Web project called Movie_App
@@ -55,8 +54,8 @@ A web application that allows users to search their favourite movies and watch w
 - Modify the .env.local file with the IDs that match your database, collection, project and name
 
   **Database for movies**
-
-  Setup account in [TMDB](https://www.themoviedb.org/):
+  
+Setup account in [TMDB](https://www.themoviedb.org/):
 
 - Create Account
 - Look for API Documentation
